@@ -1,0 +1,33 @@
+{
+  "name": "@sergeysova/docz-theme",
+  "version": "0.1.0",
+  "description": "Specialized theme for my projects with docz",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docz dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeysova/docz-theme.git"
+  },
+  "author": "Sergey Sova <mail@sergeysova.com> (https://sergeysova.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeysova/docz-theme/issues"
+  },
+  "homepage": "https://github.com/sergeysova/docz-theme#readme",
+  "dependencies": {
+    "emotion": "^9.2.4",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.4",
+    "react-helmet": "^5.2.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "docz": "^0.3.2",
+    "docz-core": "^0.3.2",
+    "favicons-webpack-plugin": "0.0.9",
+    "remark-external-links": "^2.0.0"
+  }
+}
